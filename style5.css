@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+#main-block{
+    border: 5px solid black;
+    width: 260px;
+    padding-top: 20px;
+    background-color: greenyellow;
+}
+
+div.circle{
+    width:200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 25px;
+
+}
+
+.circle-red{
+    background-color: red;
+}
+
+.circle-yellow{
+    background-color: yellow;
+}
+
+.circle-green{
+    background-color: green;
+}
+
+.button-circle{
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    border: 5px solid blue;
+    background-color: green;
+    cursor: pointer;
+}
+
+#main-block div:first-child{
+    border:10px solid black;
+}
+
+#main-block vid:last-child{
+    height: 100px;
+}
+
+#main-block div:nth-child(1){
+    background-color: brown;
+}
+a{
+    color: red;
+}
+
+ul li a{
+    color:blue;
+}
+
